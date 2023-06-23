@@ -69,7 +69,6 @@ function MainPrompts() {
     }
   ]).then(res => {
     let choice = res.choice;
-    // Call the appropriate function depending on what the user chose
     switch (choice) {
       case "VIEW_ALL_EMPLOYEES":
         viewallEmployees();
