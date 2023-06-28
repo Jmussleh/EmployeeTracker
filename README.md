@@ -9,3 +9,7 @@ Start by entering your username and password for myslq in the connection.js file
 ## Screenshot of application
 <img title="Employee Tracker" alt="Screenshot of Employee Tracker App" src="assets\Screenshot_Employee_Tracker.png">
 
+## Walkthrough Video
+<iframe src="https://drive.google.com/file/d/1YzAhYaPJL9EQaUcHrZUdMypcyxYeQM94/preview" width="640" height="480"></iframe>
+
+
