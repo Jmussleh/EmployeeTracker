@@ -1,11 +1,11 @@
 const mysql = require("mysql2");
 
-const connection = mysql.Connection({
+const connection = mysql.createConnection({
   host: "localhost",
   // Your username
   user: "root",
   // Your password
-  password: "",
+  password: "UcfKnights17!",
   database: "employees"
 });
 

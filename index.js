@@ -1,4 +1,4 @@
-const { prompt } = require("inquirer");
+const {prompt} = require("inquirer");
 const db = require("./db");
 init();
 
@@ -15,11 +15,11 @@ function MainPrompts() {
       choices: [
         {
           name: "View All Employees",
-          value: "VIEW_EMPLOYEES"
+          value: "VIEW_ALL_EMPLOYEES"
         },
         {
           name: "View All Employees By Department",
-          value: "VIEW_EMPLOYEES_BY_DEPARTMENT"
+          value: "VIEW_ALL_EMPLOYEES_BY_DEPARTMENT"
         },
         {
           name: "Add Employee",
@@ -32,10 +32,6 @@ function MainPrompts() {
         {
           name: "Update Employee Role",
           value: "UPDATE_EMPLOYEE_ROLE"
-        },
-        {
-          name: "Update Employee Manager",
-          value: "UPDATE_EMPLOYEE_MANAGER"
         },
         {
           name: "View All Roles",
